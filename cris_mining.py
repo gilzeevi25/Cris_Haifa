@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import sys
 def main():
-    api_key = 'ff7b0b11-9131-4ff4-9b01-509935e6e73d'
+    api_key = 'Your-API-Key'
     #After giving a permission for each endpoint by administrator:
     for endpoint in ['research-outputs','persons','journals','publishers','organizations','external-organizations']:
         url = f"https://cris.haifa.ac.il/ws/api/{endpoint}?apiKey=" + api_key
